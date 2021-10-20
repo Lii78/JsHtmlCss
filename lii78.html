@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142172544-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-142172544-2');
+        </script>
+
+
+        <meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+        <meta name="keywords" content="コーディング, プログラミング, エンジニア, りー, フリーランス">
+        <meta name="description" content="エンジニアを頑張ります！　よろしくお願いいたします！">
+
+        <title>エンジニアのりーです！</title>
+
+        <style>
+            body {
+                background-color: lightblue;
+                font-family: 'Courier New', sans-serif;
+            }
+            h1 {
+                color: violet;
+            }
+            strong {
+                color: blue;
+            }
+        </style>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- 時間帯で背景色を変更-->
+        <script type="text/javascript">
+            var now  = new Date();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+
+            // 深夜から早朝まで背景色を変更
+            if ( hour > 0 && hour < 7 ){
+                document.body.style.backgroundColor = '#ff0000';
+            }
+
+            // ○分毎に背景色を変更
+            if ( minute % 2 ){
+                document.body.style.backgroundColor = '#FFFFFF';
+            }
+        </script>
+
+    </head>
+
+
+    <body>
+<script type="text/javascript" src="https://ad.xdomain.ne.jp/js/server-php.js"></script>
+        <div style="text-align:center">
+                <u><strong>エンジニア</strong>のりーです！</u>
+        </div>
+
+        <h1><u><a href="http://lii78.php.xdomain.jp">りーにつきまして</a></u></h1>
+
+          <p>
+            りーといいます！<br>
+            エンジニアをしています！<br>
+            どうぞよろしくお願いいたします！<br>
+          </p>
+
+          <p>
+            <!--　ここにポートフォリオを -->
+          </p>
+
+          <p>
+            まだまだ未熟者ゆえ、アドバイスがありましたら、
+            是非コメントしてください！
+          </p>
+
+            よろしければ、あなたのことを教えてください！<br>
+            <form method="POST" action="request.php" name="tfm" >
+                お名前(ニックネーム)：
+                <input type="text" name="guest" size="25" />
+                <input type="submit" value="送信" />
+                <input type="reset"  value="クリア" />
+                <br>
+
+                性別：
+                女性<input type="radio" name="sex" value="女性" >
+                男性<input type="radio" name="sex" value="男性" >
+                その他<input type="radio" name="sex" value="その他" checked="checked" >
+                <br>
+                <!-- フリー入力　-->
+                メッセージ<br>
+                <textarea rows="5" cols="77" name="message"></textarea>
+                <br>
+
+            </form>
+
+            <p>
+              もし、仕事のご依頼等がありましたら、お気軽にご連絡ください！<br>
+              可能な限りお受けいたします！<br>
+              ※平日の日中は、在宅勤務中の為、連絡が遅くなるかもしれません<br>
+            </p>
+
+    </body>
+</html>
